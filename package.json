@@ -5,6 +5,7 @@
   "author": "Mateusz Nielsen <nielsenmateusz@gmail.com>",
   "private": true,
   "scripts": {
+    "serve": "vue-cli-service --open serve",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
@@ -15,6 +16,7 @@
     "json": "json-server data.js -p 3500"
   },
   "dependencies": {
+    "@vue/cli-service": "^4.4.6",
     "axios": "^0.18.0",
     "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",

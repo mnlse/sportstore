@@ -8,10 +8,10 @@
 import Store from './components/Store.vue'
 
 export default {
-    name: 'App',
-    components: {
-        store: Store
-    }
+  name: 'App',
+  components: {
+    Store
+  }
 }
 </script>
 

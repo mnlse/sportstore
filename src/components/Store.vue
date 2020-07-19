@@ -13,15 +13,25 @@
                 </h4>
             </div>
             <div class="col-9 bg-success p-2">
-                <h4 class="text-white m-2">Produkty</h4>
+                <product-list />
             </div>
         </div>
     </div>
 </template>
 
 <script>
-export default {
+import ProductList from './ProductList'
 
+export default {
+  name: 'Store',
+  components: {
+    ProductList
+  },
+  data () {
+    return {
+
+    }
+  }
 }
 </script>
 
