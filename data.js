@@ -4,7 +4,8 @@ const categories = ["Test1", "Kajaki", "Kategoria3", "Piłka nożna", "Szachy", 
 for (let i = 0; i < 100; i++) {
     data.push({
         name: `Kajak ${i}`,
-        category: categories[Math.floor((Math.random() * categories.length))]
+        category: categories[Math.floor((Math.random() * categories.length))],
+        price: i * 50
     })
 }
 

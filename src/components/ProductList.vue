@@ -23,7 +23,8 @@ export default {
   },
   filters: {
     currency (value) {
-      return new Intl.NumberFormat('pl-PL', { style: 'currency', currency: 'PLN' }).format(value)
+      let val = Number(value)
+      return new Intl.NumberFormat('pl-PL', { style: 'currency', currency: 'PLN' }).format(val)
     }
   }
 }
